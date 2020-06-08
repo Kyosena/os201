@@ -1,3 +1,6 @@
+---
+permalink: /url/
+---
 <html>
 <body>
 <h1>Some useful OS links:
