@@ -1,19 +1,21 @@
 
 
-##Selamat datang di githubpage OS201 Kyosena
+## Welcome to OS201 Kyosena's github page
 
 ```markdown
 Syntax highlighted code block
 
 
-# Halo, nama saya Kyosena Haridza
- Saya adalah salah satu mahasiswa di kelas OS-c yang sedang menajalankan Ujian Akhir Semester.
+# Hello, my name is Kyosena Haridza
+ I am a student in class OS-C of OS201 in fasilkom's operating systems classes, who is currently undergoing the final exams. 
+ 
 
 
 
 
 ```
-Semoga website ini telah berfungsi sebagai githubpage repository saya.
+I hope this website proves useful as a githubpage for my repository.
+[URLS](url/)
 
 
 
