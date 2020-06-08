@@ -1,0 +1,48 @@
+kyosena.haridza@badak:~$ sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+kyosena.haridza@badak:~$ gpg2 -sb -a SHA1SUM
+
+You need a passphrase to unlock the secret key for
+user: "Kyosena Haridza (Kyo OS-C) <Kyosenaharidza@gmail.com>"
+4096-bit RSA key, ID A7267BBB, created 2020-06-04
+
+kyosena.haridza@badak:~$ gpg2 --verify SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon 08 Jun 2020 02:42:19 PM WIB using RSA key ID A7267BBB
+gpg: Good signature from "Kyosena Haridza (Kyo OS-C) <Kyosenaharidza@gmail.com>" [ultimate]
+kyosena.haridza@badak:~$ exit
+exit
+
+Script done on Mon 08 Jun 2020 02:42:28 PM WIB
+kyosena.haridza@badak:~$ clear
+kyosena.haridza@badak:~$ cat 0003-CEK-PAS0.txt
+Script started on Mon 08 Jun 2020 02:41:45 PM WIB
+kyosena.haridza@badak:~$ ls -F
+0000-mypub.txt       0003-CEK-PAS0.txt  extra/     mykey.gpg         W04/
+0001-mytest.txt      0003-OSPUB.txt     keyfile    myprivatekey.asc  WO4/
+0002-mytest.txt.asc  coba.txt           mykey.asc  publicOLD.key
+kyosena.haridza@badak:~$ sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txtasc > SHA1SUM
+kyosena.haridza@badak:~$ cat SHA1SUM
+bf8cbd1fbcd64eca5cea376dc4fdb185bd2ec158  0000-mypub.txt
+fd76bc6b6d2d80b183020c233fb379cecc2cd5b5  0001-mytest.txt
+cf4a4386249a24d45ffa468d2c4b39d6aa871d40  0002-mytest.txt.asc
+kyosena.haridza@badak:~$ sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+kyosena.haridza@badak:~$ gpg2 -sb -a SHA1SUM
+
+You need a passphrase to unlock the secret key for
+user: "Kyosena Haridza (Kyo OS-C) <Kyosenaharidza@gmail.com>"
+4096-bit RSA key, ID A7267BBB, created 2020-06-04
+
+kyosena.haridza@badak:~$ gpg2 --verify SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon 08 Jun 2020 02:42:19 PM WIB using RSA key ID A7267BBB
+gpg: Good signature from "Kyosena Haridza (Kyo OS-C) <Kyosenaharidza@gmail.com>" [ultimate]
+kyosena.haridza@badak:~$ exit
+exit
+
+Script done on Mon 08 Jun 2020 02:42:28 PM WIB
