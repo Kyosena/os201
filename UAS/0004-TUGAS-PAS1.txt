@@ -9,8 +9,8 @@ $ PS1="\$(eval \$PSTAMP)"
 Kyosena ZCZCSCRIPTSTART 200609-114245 Kyosena
 Kyosena Kyosena 200609-114306-adac-kyosena.haridza/ 200609-114306 SEQOK SUMOK adaca662
 Kyosena Kyosena 200609-114313-83c5-kyosena.haridza/ 200609-112000 SEQOK SUMOK 83c5829f
-Kyosena Kyosena 200604-114318-5b0c-kyosena.haridza/ 200604-214752 SEQOK SUMOK 5b0ca786
-Kyosena Kyosena 200604-114326-98cc-kyosena.haridza/ 200604-214801 SEQOK SUMOK 98cc8d1a
+Kyosena Kyosena 200609-114318-5b0c-kyosena.haridza/ 200604-214752 SEQOK SUMOK 5b0ca786
+Kyosena Kyosena 200609-114326-98cc-kyosena.haridza/ 200604-214801 SEQOK SUMOK 98cc8d1a
 Kyosena ZCZCSCRIPTSTOP 200609-114328
 
 200609-115953-d255-kyosena.haridza/> echo -e $CEKSEBELA1
