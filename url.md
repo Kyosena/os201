@@ -1,5 +1,5 @@
 ---
-permalink: /URLs/
+permalink: /url/
 ---
 <html>
 <body>
