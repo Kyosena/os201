@@ -15,7 +15,7 @@ Syntax highlighted code block
 
 ```
 I hope this website proves useful as a githubpage for my repository.
-[URLS](url/)
+[URLS](URLs/)
 
 
 
