@@ -1,36 +1,32 @@
 Script started on Tue 09 Jun 2020 12:21:06 PM WIB
-kyosena.haridza@badak:~$ PS1="$ "
+]0;kyosena.haridza@badak: ~kyosena.haridza@badak:~$ PS1="$ "
 $ echo $GitHubUser
 Kyosena
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ PS1="\$(eval \$PSTAMP)"
-
 200609-122129-cf6a-kyosena.haridza/> echo -e $CEKSAYA
-Kyosena ZCZCSCRIPTSTART 200609-114245 Kyosena
-Kyosena Kyosena 200609-114306-adac-kyosena.haridza/ 200609-114306 SEQOK SUMOK adaca662
-Kyosena Kyosena 200609-114313-83c5-kyosena.haridza/ 200609-112000 SEQOK SUMOK 83c5829f
-Kyosena Kyosena 200609-114318-5b0c-kyosena.haridza/ 200604-214752 SEQOK SUMOK 5b0ca786
-Kyosena Kyosena 200609-114326-98cc-kyosena.haridza/ 200604-214801 SEQOK SUMOK 98cc8d1a
-Kyosena ZCZCSCRIPTSTOP 200609-114328
-
-200609-122138-5a44-kyosena.haridza/> echo -e $CEKSEBELA1
-Kyosena ZCZCSCRIPTSTART 200531-155359 leleonardo81
-Kyosena leleonardo81 200531-155422-1d74-leonardo81/ 200531-155422 SEQOK SUMOK 1d746b4f
-Kyosena leleonardo81 200531-155436-9dd0-leonardo81/ 200531-155436 SEQOK SUMOK 9dd07b1f
-Kyosena leleonardo81 200531-155442-6715-leonardo81/ 200531-155442 SEQOK SUMOK 67150ec9
-Kyosena leleonardo81 200531-155506-9405-leonardo81/ 200531-15506 SEQOK SUMOK 9405205f
+Kyosena ZCZCSCRIPTSTART 200609-114245 Kyosena 
+Kyosena Kyosena 200609-114306-adac-kyosena.haridza/ 200609-114306 SEQOK SUMOK adaca662 
+Kyosena Kyosena 200609-114313-83c5-kyosena.haridza/ 200609-112000 SEQOK SUMOK 83c5829f 
+Kyosena Kyosena 200609-114318-5b0c-kyosena.haridza/ 200604-214752 SEQOK SUMOK 5b0ca786 
+Kyosena Kyosena 200609-114326-98cc-kyosena.haridza/ 200604-214801 SEQOK SUMOK 98cc8d1a 
+ Kyosena ZCZCSCRIPTSTOP 200609-114328
+200609-122138-5a44-kyosena.haridza/> E[Kecho -e $CEKSEBELA1
+Kyosena ZCZCSCRIPTSTART 200531-155359 leleonardo81 
+Kyosena leleonardo81 200531-155422-1d74-leonardo81/ 200531-155422 SEQOK SUMOK 1d746b4f 
+Kyosena leleonardo81 200531-155436-9dd0-leonardo81/ 200531-155436 SEQOK SUMOK 9dd07b1f 
+Kyosena leleonardo81 200531-155442-6715-leonardo81/ 200531-155442 SEQOK SUMOK 67150ec9 
+Kyosena leleonardo81 200531-155506-9405-leonardo81/ 200531-15506 SEQOK SUMOK 9405205f 
 Kyosena ZCZCSCRIPTSTOP 200531-155523
-
 200609-122150-81ea-kyosena.haridza/> echo -e $CEKSEBELA2
-Kyosena ZCZCSCRIPTSTART 200606-174657 lepiku
-Kyosena lepiku 200606-174718-db4b-UAS/ 200606-174718 SEQOK SUMOK db4b63f0
-Kyosena lepiku 200606-174724-cc1b-UAS/ 200606-174724 SEQOK SUMOK cc1bc2df
-Kyosena lepiku 200606-174727-c712-UAS/ 200606-174727 SEQOK SUMOK c712a6fd
-Kyosena lepiku 200606-174734-2d03-UAS/ 200606-174734 SEQOK SUMOK 2d0395ce
+Kyosena ZCZCSCRIPTSTART 200606-174657 lepiku 
+Kyosena lepiku 200606-174718-db4b-UAS/ 200606-174718 SEQOK SUMOK db4b63f0 
+Kyosena lepiku 200606-174724-cc1b-UAS/ 200606-174724 SEQOK SUMOK cc1bc2df 
+Kyosena lepiku 200606-174727-c712-UAS/ 200606-174727 SEQOK SUMOK c712a6fd 
+Kyosena lepiku 200606-174734-2d03-UAS/ 200606-174734 SEQOK SUMOK 2d0395ce 
 Kyosena ZCZCSCRIPTSTOP 200606-174738
-
-200609-122157-ef39-kyosena.haridza/> exit
+200609-122157-ef39-kyosena.haridza/> E[Kexit
 exit
 
 Script done on Tue 09 Jun 2020 12:22:00 PM WIB
